@@ -1,0 +1,138 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende facil MONGODB</title>
+  <link rel="icon" href="imagenes/iconomongo.png" type="image/x-icon">
+
+  <!-- Bootstrap 4.5.3 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+  <!-- Navbar con logotipo y nombre de la empresa -->
+  <nav class="navbar navbar-expand-lg main-navbar navbar-dark" style="background-color: #4DB33D;">
+    <a class="navbar-brand" href="index.html">
+      <img src="imagenes/logomongodb.png" alt="Logo MongoDB" width="200" height="120" alt="Logo MongoDB"
+        class="d-inline-block align-top">
+      MONGODB web</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="about-us.html">Sobre Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contáctanos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carrusel -->
+  <section>
+    <div id="carouselInicio" class="carousel slide" data-ride="carousel" style="max-height: 500px; overflow: hidden;">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselInicio" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselInicio" data-slide-to="1"></li>
+        <li data-target="#carouselInicio" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active position-relative">
+          <img src="imagenes/carrusel/carrusel1.png" class="d-block w-100" alt="Atención profesional"
+            style="height: 400px; object-fit: cover;">
+          <div class="overlay">
+            <div class="carousel-caption d-md-block">
+              <h5>Expertos en bases de datos.</h5>
+              <p>Somos un equipo profesional que te garantiza el aprendizaje básico de mongoDB.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="imagenes/carrusel/carrusel2.png" class="d-block w-100" alt="Tecnología de vanguardia"
+            style="height: 400px; object-fit: cover;">
+          <div class="overlay"></div>
+          <div class="carousel-caption d-md-block">
+            <h5>Cursos 100% online.</h5>
+            <p>El trabajo desde casa es una realidad. no pierdas el tiempo en ir a la oficina.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item position-relative">
+          <img src="imagenes/carrusel/carrusel3.png" class="d-block w-100" alt="Instalaciones cómodas"
+            style="height: 400px; object-fit: cover;">
+          <div class="overlay"></div>
+          <div class="carousel-caption d-md-block">
+            <h5>Certificación en mongoDB.</h5>
+            <p>Si apruebas todos los cursos te certificamos como DBA.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselInicio" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselInicio" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Sección de contenido -->
+  <main class="container mt-5">
+    <h2 class="text-center mb-4">Más información acá</h2>
+    <div class="row">
+      <div class="col-md-6 mb-6">
+        <a href="services.html">
+          <div class="card h-100" style="background-color: #4DB33D;">
+            <img src="imagenes/serviciosindex.png" class="card-img-top" alt="Nuestros cursos">
+            <div class="card-body">
+              <h5 class="card-title">Servicios</h5>
+              <p class="card-text" style="color: white;">Aquí encotrarás todos nuestros cursos de MONGODB.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 mb-6">
+        <a href="contact-us.html">
+          <div class="card h-100" style="background-color: #4DB33D;">
+            <img src="imagenes/contactanos.jpg" class="card-img-top" alt="Contactanos">
+            <div class="card-body">
+              <h5 class="card-title">Contáctanos</h5>
+              <p class="card-text" style="color: white;" s>Toda la información para contactarnos acá</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3 mt-5">
+    <p>&copy; 2025 MongoDB Web. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
