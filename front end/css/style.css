@@ -1,0 +1,39 @@
+*{
+    font-family: 'Oswald';
+}
+img{
+    width: 100px;
+}
+header,article,footer{
+    border:2px dotted #000;
+    margin-bottom:1em;
+}
+#slider{
+    border:2px dotted #000;
+    margin-bottom:1em;
+    text-align: center;
+    padding: 14em 0em 2em 0em;
+}
+
+#info .articleInfo{
+    display: inline-block;
+    min-height: 180px;
+    width: 32.75%;
+}
+#ig .articleInfo{
+    display: inline-block;
+    min-height: 400px;
+    width: 24.4%;
+}
+#header{
+    min-height: 50px;
+}
+.center{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+#slider button:hover{
+    cursor: pointer;
+}
